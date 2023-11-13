@@ -1,7 +1,7 @@
 import os
 import requests
 
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("API_KEY")  # replace API key in env
 
 if __name__ == "__main__":
     stock = input("Enter stock symbol: ")
