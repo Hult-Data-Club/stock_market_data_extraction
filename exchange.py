@@ -1,6 +1,7 @@
+import os
 import requests
 
-API_KEY = "ACTP5H8374WJ7664"
+API_KEY = os.getenv("API_KEY")
 
 if __name__ == "__main__":
     stock = input("Enter stock symbol: ")
